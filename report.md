@@ -46,6 +46,7 @@ Refactoring is done here:
 
 - https://github.com/soffan-group-20/teammates/pull/18
 - https://github.com/soffan-group-20/teammates/pull/14
+- https://github.com/soffan-group-20/teammates/pull/48
 
 ## Coverage
 
