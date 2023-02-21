@@ -30,6 +30,8 @@ For specific accounts of onboarding experiences refer to this issue: https://git
 
 We found 10 functions of cyclic complexity higher than 10. Some functions are complex, while others just have many branches. The functions handle things such as filtering, predicates, aggregation. The code doesn't use exceptions. The documentation for these functions was extremely bad, and many assumptions had to be made of the expected behavior of the functions.
 
+The list of functions can be found here: https://github.com/soffan-group-20/teammates/issues/2
+
 ## Refactoring
 
 <!-- Plan for refactoring complex code:
@@ -42,11 +44,7 @@ git diff ... -->
 
 To refactor we simply extracted common blocks of behavior into other smaller functions, in order to reduce the CC and LOC of the functions. We managed to reduce the CC by 35% for all team members assigned functions.
 
-Refactoring is done here:
-
-- https://github.com/soffan-group-20/teammates/pull/18
-- https://github.com/soffan-group-20/teammates/pull/14
-- https://github.com/soffan-group-20/teammates/pull/48
+Refactoring is done here: https://github.com/soffan-group-20/teammates/issues/9#issuecomment-1436723542
 
 ## Coverage
 
@@ -71,7 +69,7 @@ git diff ... -->
 
 Our own coverage tool was created by keeping track in a `Record<number, boolean>` object which branches were visited.
 
-https://github.com/soffan-group-20/teammates/pull/15
+https://github.com/soffan-group-20/teammates/issues/7#issuecomment-1436706274
 
 <!-- What kinds of constructs does your tool support, and how accurate is
 its output? -->
